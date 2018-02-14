@@ -23,7 +23,7 @@ void inputArray(vector<float>& v){
 
 string Arr2Str(vector<float>& v){
     std::ostringstream out;
-    for (unsigned i; i < v.size(); i++){
+    for (unsigned i=0; i < v.size(); i++){
         out << v[i] << ' ';
     }
     string str(out.str());
